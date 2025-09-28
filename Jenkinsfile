@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Stage1') {
+    stage('Checkout code') {
       steps {
-        git(url: 'https://github.com/rajeshjohnc/DockerTest', branch: 'main')
+        git(url: 'https://github.com/rajeshjohnc/DockerTest.git', branch: 'main')
       }
     }
 
