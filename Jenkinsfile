@@ -53,7 +53,7 @@ pipeline {
 
     stage('Docker Run') {
       steps {
-        sh 'docker run --name DockerTest -d dockerfile:latest -p 8888:8888'
+        sh 'docker run --name DockerTest -d dockerfile:latest -p 8888:8888 -restart unless-stopped'
       }
     }
 
