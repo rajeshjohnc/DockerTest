@@ -15,10 +15,9 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh 'docker build -f Jenkins/Dockerfile . '
+        sh 'docker build -f Jenkins/Dockerfile -t myapp:1.0 . '
       }
     }
 
-    
   }
 }
