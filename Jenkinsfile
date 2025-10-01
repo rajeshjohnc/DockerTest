@@ -15,7 +15,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh 'docker build -f Jenkins/Dockerfile -t Dockerfile:latest . '
+        sh 'docker build -f Jenkins/Dockerfile -t Dockerfile:1.0 . '
       }
     }
 
