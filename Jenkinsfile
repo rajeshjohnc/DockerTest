@@ -38,7 +38,7 @@ pipeline {
         script {
           try {
             echo 'docker image delete'
-            sh 'docker rmi dockerfile:latest'
+            sh 'docker rmi dockerfile:latest -f'
 
           } catch (Exception e) {
 
