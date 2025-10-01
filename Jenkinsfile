@@ -4,14 +4,32 @@ pipeline {
 
     stage('Stop Docker') {
           steps {
-            sh 'docker stop dockerfile:latest'
-          }
+                script {
+                    try {
+                        echo 'docker stop'
+			                  sh 'docker stop dockerfile:latest'
+ 
+                    } catch (Exception e) {
+                       
+                        echo "Stage B failed, but continuing pipeline: ${e.message}"
+                    }
+                }
+            }
     }
 
     stage('Delete Docker') {
           steps {
-            sh 'docker rm dockerfile:latest'
-          }
+                script {
+                    try {
+                        echo 'docker rm'
+			                  sh 'docker rm dockerfile:latest'
+ 
+                    } catch (Exception e) {
+                       
+                        echo "Stage B failed, but continuing pipeline: ${e.message}"
+                    }
+                }
+            }
     }
 
     stage('Checkout') {
