@@ -79,5 +79,11 @@ pipeline {
       }
     }
 
+    stage('Docker Restart') {
+      steps {
+        sh 'docker update --restart unless-stopped $(docker ps -q)'
+      }
+    }
+
   }
 }
