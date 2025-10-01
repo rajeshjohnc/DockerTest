@@ -6,7 +6,7 @@ pipeline {
         script {
           try {
             echo 'docker stop'
-            sh 'docker stop dockerfile:latest'
+            sh 'docker stop dockertest'
 
           } catch (Exception e) {
 
@@ -22,7 +22,7 @@ pipeline {
         script {
           try {
             echo 'docker rm'
-            sh 'docker rm dockerfile:latest'
+            sh 'docker rm dockertest'
 
           } catch (Exception e) {
 
@@ -69,7 +69,7 @@ pipeline {
 
     stage('Docker Run') {
       steps {
-        sh 'docker run --name DockerTest -d dockerfile:latest -p 8888:8888 '
+        sh 'docker run --name dockertest -d dockerfile:latest -p 8888:8888 '
       }
     }
 
