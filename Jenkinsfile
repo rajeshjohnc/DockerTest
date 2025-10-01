@@ -33,7 +33,7 @@ pipeline {
       }
     }
 
-    stage('Delete Docker') {
+    stage('Delete image') {
       steps {
         script {
           try {
