@@ -61,6 +61,12 @@ pipeline {
       }
     }
 
+    stage('pwd') {
+      steps {
+        sh 'pwd'
+      }
+    }
+
     stage('Build') {
       steps {
         sh 'docker build -f Jenkins/Dockerfile -t dockerfile:latest . '
