@@ -19,11 +19,6 @@ pipeline {
       }
     }
 
-    stage('Build2') {
-      steps {
-        sh 'docker build Dockerfile . '
-      }
-    }
-
+    
   }
 }
