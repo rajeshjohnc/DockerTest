@@ -33,6 +33,22 @@ pipeline {
       }
     }
 
+    stage('Delete Docker') {
+      steps {
+        script {
+          try {
+            echo 'docker image delete'
+            sh 'docker rmi dockerfile:latest'
+
+          } catch (Exception e) {
+
+            echo "Stage docker rmi failed, but continuing pipeline: ${e.message}"
+          }
+        }
+
+      }
+    }
+
     stage('Checkout') {
       steps {
         git(url: 'https://github.com/rajeshjohnc/DockerTest.git', branch: 'main')
