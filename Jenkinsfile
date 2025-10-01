@@ -10,7 +10,7 @@ pipeline {
  
                     } catch (Exception e) {
                        
-                        echo "Stage B failed, but continuing pipeline: ${e.message}"
+                        echo "Stage docker stop failed, but continuing pipeline: ${e.message}"
                     }
                 }
             }
@@ -25,7 +25,7 @@ pipeline {
  
                     } catch (Exception e) {
                        
-                        echo "Stage B failed, but continuing pipeline: ${e.message}"
+                        echo "Stage docker rm failed, but continuing pipeline: ${e.message}"
                     }
                 }
             }
