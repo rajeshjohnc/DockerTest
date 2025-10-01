@@ -2,33 +2,35 @@ pipeline {
   agent any
   stages {
     stage('Stop Docker') {
-          steps {
-                script {
-                    try {
-                        echo 'docker stop'
-			                  sh 'docker stop dockerfile:latest'
- 
-                    } catch (Exception e) {
-                       
-                        echo "Stage docker stop failed, but continuing pipeline: ${e.message}"
-                    }
-                }
-            }
+      steps {
+        script {
+          try {
+            echo 'docker stop'
+            sh 'docker stop dockerfile:latest'
+
+          } catch (Exception e) {
+
+            echo "Stage docker stop failed, but continuing pipeline: ${e.message}"
+          }
+        }
+
+      }
     }
 
     stage('Delete Docker') {
-          steps {
-                script {
-                    try {
-                        echo 'docker rm'
-			                  sh 'docker rm dockerfile:latest'
- 
-                    } catch (Exception e) {
-                       
-                        echo "Stage docker rm failed, but continuing pipeline: ${e.message}"
-                    }
-                }
-            }
+      steps {
+        script {
+          try {
+            echo 'docker rm'
+            sh 'docker rm dockerfile:latest'
+
+          } catch (Exception e) {
+
+            echo "Stage docker rm failed, but continuing pipeline: ${e.message}"
+          }
+        }
+
+      }
     }
 
     stage('Checkout') {
