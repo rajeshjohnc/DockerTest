@@ -4,6 +4,7 @@ EXPOSE 5077
 
 ENV ASPNETCORE_URLS=http://+:5077
 
+USER app
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 ARG configuration=Release
 WORKDIR /src
