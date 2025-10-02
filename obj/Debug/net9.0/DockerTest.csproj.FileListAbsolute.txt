@@ -1,35 +1,35 @@
-D:\0Works\00Works\New folder\DockerTest\bin\Debug\net9.0\appsettings.Development.json
-D:\0Works\00Works\New folder\DockerTest\bin\Debug\net9.0\appsettings.json
-D:\0Works\00Works\New folder\DockerTest\bin\Debug\net9.0\DockerTest.staticwebassets.endpoints.json
-D:\0Works\00Works\New folder\DockerTest\bin\Debug\net9.0\DockerTest.exe
-D:\0Works\00Works\New folder\DockerTest\bin\Debug\net9.0\DockerTest.deps.json
-D:\0Works\00Works\New folder\DockerTest\bin\Debug\net9.0\DockerTest.runtimeconfig.json
-D:\0Works\00Works\New folder\DockerTest\bin\Debug\net9.0\DockerTest.dll
-D:\0Works\00Works\New folder\DockerTest\bin\Debug\net9.0\DockerTest.pdb
-D:\0Works\00Works\New folder\DockerTest\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
-D:\0Works\00Works\New folder\DockerTest\bin\Debug\net9.0\Microsoft.OpenApi.dll
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\DockerTest.csproj.AssemblyReference.cache
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\rpswa.dswa.cache.json
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\DockerTest.GeneratedMSBuildEditorConfig.editorconfig
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\DockerTest.AssemblyInfoInputs.cache
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\DockerTest.AssemblyInfo.cs
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\DockerTest.csproj.CoreCompileInputs.cache
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\DockerTest.MvcApplicationPartsAssemblyInfo.cs
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\DockerTest.MvcApplicationPartsAssemblyInfo.cache
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\rjimswa.dswa.cache.json
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\scopedcss\bundle\DockerTest.styles.css
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\staticwebassets.build.json
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\staticwebassets.build.json.cache
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\staticwebassets.development.json
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\DockerTest.csproj.Up2Date
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\DockerTest.dll
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\refint\DockerTest.dll
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\DockerTest.pdb
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\DockerTest.genruntimeconfig.cache
-D:\0Works\00Works\New folder\DockerTest\obj\Debug\net9.0\ref\DockerTest.dll
+D:\0Works\00Works\New folder (2)\DockerTest\bin\Debug\net9.0\appsettings.Development.json
+D:\0Works\00Works\New folder (2)\DockerTest\bin\Debug\net9.0\appsettings.json
+D:\0Works\00Works\New folder (2)\DockerTest\bin\Debug\net9.0\DockerTest.staticwebassets.endpoints.json
+D:\0Works\00Works\New folder (2)\DockerTest\bin\Debug\net9.0\DockerTest.exe
+D:\0Works\00Works\New folder (2)\DockerTest\bin\Debug\net9.0\DockerTest.deps.json
+D:\0Works\00Works\New folder (2)\DockerTest\bin\Debug\net9.0\DockerTest.runtimeconfig.json
+D:\0Works\00Works\New folder (2)\DockerTest\bin\Debug\net9.0\DockerTest.dll
+D:\0Works\00Works\New folder (2)\DockerTest\bin\Debug\net9.0\DockerTest.pdb
+D:\0Works\00Works\New folder (2)\DockerTest\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+D:\0Works\00Works\New folder (2)\DockerTest\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\DockerTest.csproj.AssemblyReference.cache
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\DockerTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\DockerTest.AssemblyInfoInputs.cache
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\DockerTest.AssemblyInfo.cs
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\DockerTest.csproj.CoreCompileInputs.cache
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\DockerTest.MvcApplicationPartsAssemblyInfo.cs
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\DockerTest.MvcApplicationPartsAssemblyInfo.cache
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\scopedcss\bundle\DockerTest.styles.css
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\staticwebassets.build.json
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\staticwebassets.development.json
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\DockerTest.csproj.Up2Date
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\DockerTest.dll
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\refint\DockerTest.dll
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\DockerTest.pdb
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\DockerTest.genruntimeconfig.cache
+D:\0Works\00Works\New folder (2)\DockerTest\obj\Debug\net9.0\ref\DockerTest.dll
 D:\0Works\00Works\DockerTest\bin\Debug\net9.0\appsettings.Development.json
 D:\0Works\00Works\DockerTest\bin\Debug\net9.0\appsettings.json
 D:\0Works\00Works\DockerTest\bin\Debug\net9.0\DockerTest.staticwebassets.endpoints.json
@@ -48,6 +48,7 @@ D:\0Works\00Works\DockerTest\obj\Debug\net9.0\DockerTest.AssemblyInfo.cs
 D:\0Works\00Works\DockerTest\obj\Debug\net9.0\DockerTest.csproj.CoreCompileInputs.cache
 D:\0Works\00Works\DockerTest\obj\Debug\net9.0\DockerTest.MvcApplicationPartsAssemblyInfo.cs
 D:\0Works\00Works\DockerTest\obj\Debug\net9.0\DockerTest.MvcApplicationPartsAssemblyInfo.cache
+D:\0Works\00Works\DockerTest\obj\Debug\net9.0\DockerTest.sourcelink.json
 D:\0Works\00Works\DockerTest\obj\Debug\net9.0\rjimswa.dswa.cache.json
 D:\0Works\00Works\DockerTest\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 D:\0Works\00Works\DockerTest\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
@@ -62,4 +63,3 @@ D:\0Works\00Works\DockerTest\obj\Debug\net9.0\refint\DockerTest.dll
 D:\0Works\00Works\DockerTest\obj\Debug\net9.0\DockerTest.pdb
 D:\0Works\00Works\DockerTest\obj\Debug\net9.0\DockerTest.genruntimeconfig.cache
 D:\0Works\00Works\DockerTest\obj\Debug\net9.0\ref\DockerTest.dll
-D:\0Works\00Works\DockerTest\obj\Debug\net9.0\DockerTest.sourcelink.json

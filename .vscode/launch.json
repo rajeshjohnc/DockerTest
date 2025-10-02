@@ -1,14 +1,6 @@
 {
+    "version": "0.2.0",
     "configurations": [
-        {
-            "name": "Containers: .NET Launch",
-            "type": "docker",
-            "request": "launch",
-            "preLaunchTask": "docker-run: debug",
-            "netCore": {
-                "appProject": "${workspaceFolder}/DockerTest.csproj"
-            }
-        },
         {
             "name": ".NET Core Launch (web)",
             "type": "coreclr",
@@ -33,6 +25,15 @@
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach"
+        },
+        {
+            "name": "Containers: .NET Launch",
+            "type": "docker",
+            "request": "launch",
+            "preLaunchTask": "docker-run: debug",
+            "netCore": {
+                "appProject": "${workspaceFolder}/DockerTest.csproj"
+            }
         }
     ]
 }
