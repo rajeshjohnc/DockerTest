@@ -75,7 +75,7 @@ pipeline {
 
     stage('Docker Run') {
       steps {
-        sh 'docker run --name dockertest -d dockerfile:latest --env=DOTNET_RUNNING_IN_CONTAINER=true --env=DOTNET_VERSION=9.0.9 --env=ASPNET_VERSION=9.0.9 --env=ASPNETCORE_URLS=http://+:5077 --network=bridge --workdir=/app -p 8081:5077 -restart unless-stopped dockertest'
+        sh 'docker run --name dockertest -d dockerfile:latest  --network=bridge --workdir=/app -p 8081:5077 -restart unless-stopped dockertest'
       }
     }
 
