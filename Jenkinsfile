@@ -69,7 +69,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh 'docker build -f Jenkins/Dockerfile -t dockerfile:latest . '
+        sh 'docker build -f Jenkins/Dockerfile -t dockertest:latest . '
       }
     }
 
