@@ -62,3 +62,4 @@ D:\0Works\00Works\DockerTest\obj\Debug\net9.0\refint\DockerTest.dll
 D:\0Works\00Works\DockerTest\obj\Debug\net9.0\DockerTest.pdb
 D:\0Works\00Works\DockerTest\obj\Debug\net9.0\DockerTest.genruntimeconfig.cache
 D:\0Works\00Works\DockerTest\obj\Debug\net9.0\ref\DockerTest.dll
+D:\0Works\00Works\DockerTest\obj\Debug\net9.0\DockerTest.sourcelink.json
