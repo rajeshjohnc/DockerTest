@@ -75,7 +75,7 @@ pipeline {
 
     stage('Docker Run') {
       steps {
-        sh 'docker run --name dockertest --hostname=2d8f71eee95c --user=app --mac-address=f2:e3:49:9a:41:74 --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin --env=APP_UID=1654 --env=ASPNETCORE_HTTP_PORTS=8080 --env=DOTNET_RUNNING_IN_CONTAINER=true --env=DOTNET_VERSION=9.0.9 --env=ASPNET_VERSION=9.0.9 --env=ASPNETCORE_URLS=http://+:5077 --network=bridge --workdir=/app -p 8081:5077  --runtime=runc -d dockertest:latest'
+        sh 'docker run --name dockertest --hostname=2d8f71eee95c --mac-address=f2:e3:49:9a:41:74 --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin --env=APP_UID=1654 --env=ASPNETCORE_HTTP_PORTS=8080 --env=DOTNET_RUNNING_IN_CONTAINER=true --env=DOTNET_VERSION=9.0.9 --env=ASPNET_VERSION=9.0.9 --env=ASPNETCORE_URLS=http://+:5077 --network=bridge --workdir=/app -p 8081:5077  --runtime=runc -d dockertest:latest'
       }
     }
 
