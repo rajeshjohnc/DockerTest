@@ -75,7 +75,7 @@ pipeline {
 
     stage('Docker Run') {
       steps {
-        sh 'docker run --name dockertest -d dockerfile:latest -p 8081:8080 -restart unless-stopped dockertest'
+        sh 'docker run --name dockertest -d dockerfile:latest -p 8081:8081 -restart unless-stopped dockertest'
       }
     }
 

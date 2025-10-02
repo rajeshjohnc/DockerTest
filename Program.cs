@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
-
+builder.WebHost.UseUrls("http://localhost:5003", "https://localhost:5004");
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
