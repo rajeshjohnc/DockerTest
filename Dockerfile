@@ -4,7 +4,7 @@ EXPOSE 5077
 
 ENV ASPNETCORE_URLS=http://+:5077
  
-FROM BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+FROM  mcr.microsoft.com/dotnet/sdk:9.0 AS build
 ARG configuration=Release
 WORKDIR /src
 COPY ["DockerTest.csproj", "./"]
